@@ -24,14 +24,14 @@
 <body>
 
 <!-- Page Content -->
-<div class="container">
+<div class="container container-login">
 
     <div align="center" class="logo-div">
-        <img class="logo-img" src="resources/images/juridoc_logo2.png"/>
+        <img class="logo-img" src="resources/images/juridoc_logo.png"/>
     </div>
+
     <div class="card card-container">
-        <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-        <img id="profile-img" class="profile-img-card" src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png"/>
+        <img id="profile-img" class="profile-img-card" src="resources/images/avatar_2x.png"/>
         <p id="profile-name" class="profile-name-card"></p>
         <form class="form-signin">
             <div class="input-group mb-3">
@@ -44,9 +44,9 @@
 
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                    <span class="input-group-text fa fa-lock" id="basic-addon-password"></span>
+                    <span class="input-group-text fa fa-unlock-alt" id="basic-addon-password"></span>
                 </div>
-                <input type="text" class="form-control" placeholder="Username"
+                <input type="text" class="form-control" placeholder="Password"
                        aria-label="Password" aria-describedby="basic-addon-password">
             </div>
 
@@ -64,12 +64,13 @@
             </p>
 
             <p>New here?
-                <a href="#">Create an account</a>
+                <a href="account-form.html">Create an account</a>
             </p>
         </div>
     </div><!-- /card-container -->
 
-    <p>&copy; 2018 Juridoc</p>
+    <p id="copyright-text">&copy; 2018 Juridoc</p>
+
 </div><!-- /container -->
 
 <!-- Bootstrap core JavaScript -->
