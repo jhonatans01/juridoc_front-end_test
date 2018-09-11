@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/juridoc_background_colored.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.account-form {
+    background-image: url("../images/juridoc_background_account.png");
+}
+
+.card-container.card {
+    max-width: 320px;
+    padding: 30px 30px;
+}
+
+.card-container-account.card {
+    max-width: 720px;
+    padding: 30px 30px;
+}
+
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 4px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.btn.btn-submit{
+    border:1px solid #d7dada;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size:13px;
+    padding: 0px;
+    color: #495057;
+    height: 32px;
+    background-color: #f4f5f5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f5f5), to(#dfdddd));
+    background-image: -webkit-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: -moz-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: -ms-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: -o-linear-gradient(top, #f4f5f5, #dfdddd);
+    background-image: linear-gradient(to bottom, #f4f5f5, #dfdddd);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f4f5f5, endColorstr=#dfdddd);
+}
+
+.btn.btn-submit:hover{
+    border:1px solid #bfc4c4;
+    background-color: #d9dddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d9dddd), to(#c6c3c3));
+    background-image: -webkit-linear-gradient(top, #d9dddd, #c6c3c3);
+    background-image: -moz-linear-gradient(top, #d9dddd, #c6c3c3);
+    background-image: -ms-linear-gradient(top, #d9dddd, #c6c3c3);
+    background-image: -o-linear-gradient(top, #d9dddd, #c6c3c3);
+    background-image: linear-gradient(to bottom, #d9dddd, #c6c3c3);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d9dddd, endColorstr=#c6c3c3);
+}
+
+
+.card-container .account-links{
+    padding-top: 30px;
+}
+
+.card-container .account-links p{
+    margin-bottom: 0px;
+}
+
+.logo-div {
+    padding: 40px;
+}
+.logo-div .logo-img{
+    width: 150px;
+}
+
+#copyright-text{
+    color: white;
+}
