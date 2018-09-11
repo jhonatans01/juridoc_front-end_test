@@ -93,6 +93,10 @@ body, html {
     padding-top: 30px;
 }
 
+.card-container .account-links p {
+    margin-bottom: 0px;
+}
+
 .logo-div {
     padding: 40px 0px 40px 0px;
 }
